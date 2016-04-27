@@ -3,7 +3,13 @@ Echoes the body of any POSTs to the shell. Powered by Twisted Web.
 
 ## Installation
 
- 1. sudo apt-get install python-twisted-web
+### Ubuntu
+
+    sudo apt-get install python-twisted-web
+
+### Fedora
+
+    sudo dnf install python-twisted
 
 ## Running
 
