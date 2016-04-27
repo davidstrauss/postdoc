@@ -10,7 +10,7 @@ class POSTDoc(Resource):
   def render_POST(self, request):
       pprint.pprint(request.requestHeaders)
       print(request.content.getvalue())
-      return 'OK'
+      return 'OK\n'
 
   def getChild(self, name, request):
       return self
